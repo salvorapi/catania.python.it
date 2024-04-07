@@ -4,8 +4,8 @@
 
 @layer components {
   .link-element {
-    @apply border-2 border-secondary text-white inline-block rounded-full text-center py-4 px-10 mt-4;
+    @apply border-2 border-secondary bg-primary inline-block rounded-full text-center py-4 px-10 mt-4;
     @apply w-full text-xl;
-    @apply hover:bg-secondary hover:transition-colors hover:cursor-pointer;
+    @apply hover:text-white hover:bg-primary hover:cursor-pointer;
   }
 }
